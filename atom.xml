@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://blorg.github.io</id>
+    <id>https://BlorgCN.github.io</id>
     <title>博客联盟</title>
-    <updated>2021-03-11T02:38:58.991Z</updated>
+    <updated>2021-03-11T02:52:31.276Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://blorg.github.io"/>
-    <link rel="self" href="https://blorg.github.io/atom.xml"/>
+    <link rel="alternate" href="https://BlorgCN.github.io"/>
+    <link rel="self" href="https://BlorgCN.github.io/atom.xml"/>
     <subtitle>博客联盟，收录国内各个领域的优秀博客，是一个全人工编辑的开放式博客联盟交流和展示平台。联盟成员完全平等、自由！无论你是技高一人，还是文采飞扬，还是百万家产，在这里，我们都是平等的，这里没有庸俗的歧视和奉承，这里只有自由而平等的对话，只有团结与互助。</subtitle>
-    <logo>https://blorg.github.io/images/avatar.png</logo>
-    <icon>https://blorg.github.io/favicon.ico</icon>
+    <logo>https://BlorgCN.github.io/images/avatar.png</logo>
+    <icon>https://BlorgCN.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 博客联盟</rights>
     <entry>
         <title type="html"><![CDATA[你好博客]]></title>
-        <id>https://blorg.github.io/hello.gridea/</id>
-        <link href="https://blorg.github.io/hello.gridea/">
+        <id>https://BlorgCN.github.io/hello.gridea/</id>
+        <link href="https://BlorgCN.github.io/hello.gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
@@ -25,8 +25,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[林浩楠博客]]></title>
-        <id>https://blorg.github.io/mikelin.cn/</id>
-        <link href="https://blorg.github.io/mikelin.cn/">
+        <id>https://BlorgCN.github.io/mikelin.cn/</id>
+        <link href="https://BlorgCN.github.io/mikelin.cn/">
         </link>
         <updated>2015-03-10T06:22:16.000Z</updated>
         <summary type="html"><![CDATA[<p>关注创业，修行人生！</p>
