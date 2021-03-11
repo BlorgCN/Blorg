@@ -77,10 +77,6 @@
     <h4 class="site-title">博客联盟更 [ <span id="year"></span> ] <span id="mouth"></span>月</h4>
   </div>
 </div>
-<script>
-  document.getElementById("year").innerHTML = new Date().getFullYear();
-  document.getElementById("mouth").innerHTML = new Date().getMonth()+1;
-</script>
         <div class="content-container">
           <div class="post-blog">
             
@@ -107,7 +103,7 @@
         
 
         <div class="site-footer">
-  <div class="slogan">©2021 博客联盟丨自由平等，分享奉献</div>
+  <div class="slogan">©<span id="yearfooter"></span> 🇨🇳博客联盟丨自由平等，分享奉献</div>
   自豪地采用<a href="https://gridea.dev" target="_blank">Gridea</a>丨由<a href="https://mikelin.cn/" target="_blank">林浩楠</a>设计丨<a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow">粤ICP备17011520号</a>
 </div>
 
@@ -125,6 +121,13 @@ var app = new Vue({
   },
 })
 
+</script>
+
+
+<script>
+  document.getElementById("year").innerHTML = new Date().getFullYear();
+  document.getElementById("mouth").innerHTML = new Date().getMonth()+1;
+  document.getElementById("yearfooter").innerHTML = new Date().getFullYear();
 </script>
 
 
