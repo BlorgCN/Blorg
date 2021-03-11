@@ -78,6 +78,19 @@ body:not(.custom-background-image):after {
   margin: 0 10px;
   background: #fffcf5;
 }
+/* 选中文字颜色 */
+::selection {
+  color: white;
+  background-color: #c40000;
+}
+::-moz-selection {
+  color: white;
+  background-color: #c40000;
+}
+::-webkit-selection {
+  color: white;
+  background-color: #c40000;
+}
 /* Grouping content
    ========================================================================== */
 /**
@@ -383,6 +396,11 @@ h4.site-title {
   padding: 3px 0 18px;
   font-weight: 400;
 }
+@media (max-width: 600px) {
+  .site-header-top-content {
+    padding: 8px 0 8px 8px;
+  }
+}
 a,
 .link {
   color: var(--c-base-black);
@@ -602,6 +620,14 @@ a.purple-link {
 }
 .post-content strong {
   font-weight: bolder;
+}
+@media (max-width: 600px) {
+  .content-container {
+    padding: 158px 18px 0;
+  }
+  .post-content h2 {
+    font-size: 20px;
+  }
 }
 .current-tag-container {
   padding-top: 32px;
