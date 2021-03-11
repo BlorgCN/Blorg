@@ -1240,6 +1240,7 @@ a.purple-link {
   color: #aba18b;
 }
 .content-container .feature-container {
+  background-color: #fff;
   background-size: cover;
   background-position: center;
   border-radius: 50%;

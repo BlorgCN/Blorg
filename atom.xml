@@ -2,33 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://BlorgCN.github.io</id>
     <title>博客联盟</title>
-    <updated>2021-03-11T06:15:34.154Z</updated>
+    <updated>2021-03-11T07:07:34.619Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://BlorgCN.github.io"/>
     <link rel="self" href="https://BlorgCN.github.io/atom.xml"/>
-    <subtitle>博客联盟，收录国内各个领域的优秀博客，是一个全人工编辑的开放式博客联盟交流和展示平台。联盟成员完全平等、自由！无论你是技高一人，还是文采飞扬，还是百万家产，在这里，我们都是平等的，这里没有庸俗的歧视和奉承，这里只有自由而平等的对话，只有团结与互助。</subtitle>
+    <subtitle>博客联盟·新版，属于原中国博客联盟（zgboke.org）的精选版，主要收录国内具有阅读价值的优秀原创个人博客，采用非盈利、全手工审查收录的运维模式。在这里提倡分享奉献，完全自由平等，只要你的博客满足收录标准，就一定会出现在平台上！</subtitle>
     <logo>https://BlorgCN.github.io/images/avatar.png</logo>
     <icon>https://BlorgCN.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 博客联盟</rights>
     <entry>
-        <title type="html"><![CDATA[你好博客]]></title>
-        <id>https://BlorgCN.github.io/hello.gridea/</id>
-        <link href="https://BlorgCN.github.io/hello.gridea/">
+        <title type="html"><![CDATA[孤斗]]></title>
+        <id>https://BlorgCN.github.io/d-d.design/</id>
+        <link href="https://BlorgCN.github.io/d-d.design/">
         </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></content>
+        <updated>2018-08-15T16:00:00.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[林浩楠博客]]></title>
         <id>https://BlorgCN.github.io/mikelin.cn/</id>
         <link href="https://BlorgCN.github.io/mikelin.cn/">
         </link>
-        <updated>2015-03-10T06:22:16.000Z</updated>
+        <updated>2015-09-14T06:22:16.000Z</updated>
         <summary type="html"><![CDATA[<p>关注创业，修行人生！</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>关注创业，修行人生！</p>
