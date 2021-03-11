@@ -1,6 +1,6 @@
 :root {
   --c-base-black: #0C1E29;
-  --c-base-blacklight: #4E616C;
+  --c-base-blacklight: #69645a;
   --c-base-purple: #c40000;
   --c-base-purplelight: #C2CCF2;
   --c-base-bluelight: hwb(199, 1%, 4%);
@@ -430,7 +430,7 @@ a.purple-link {
 .post-item {
   margin: 0 3px 20px!important;
   padding: 32px 0;
-  width: 25%;
+  width: 24%;
   float: left;
   text-align: center;
   overflow: hidden;
@@ -452,6 +452,9 @@ a.purple-link {
   left: 38%;
   width: 138px!important;
   height: 138px!important;
+}
+.post-item .post-link {
+  font-size: 20px!important;
 }
 @media (max-width: 600px) {
   .post-item {
