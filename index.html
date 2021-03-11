@@ -1,121 +1,202 @@
+
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Gridea</title>
-<link rel="shortcut icon" href="https://coding-pages-bucket-3532956-8437033-14001-523971-1305174683.cos-website.ap-guangzhou.myqcloud.com/favicon.ico?v=1615193108558">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="https://coding-pages-bucket-3532956-8437033-14001-523971-1305174683.cos-website.ap-guangzhou.myqcloud.com/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Gridea - Atom Feed" href="https://coding-pages-bucket-3532956-8437033-14001-523971-1305174683.cos-website.ap-guangzhou.myqcloud.com/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+    
+<meta charset="utf-8" >
+
+<title>博客联盟</title>
+<meta name="keyword" content="中国博客联盟,名人博客,博客收录,博客导航,博客目录,博客推广,博客交流,博客展示,个人博客">
+<meta name="description" content="博客联盟，收录国内各个领域的优秀博客，是一个全人工编辑的开放式博客联盟交流和展示平台。联盟成员完全平等、自由！无论你是技高一人，还是文采飞扬，还是百万家产，在这里，我们都是平等的，这里没有庸俗的歧视和奉承，这里只有自由而平等的对话，只有团结与互助。">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://blorg.github.io/favicon.ico?v=1615429869324">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://blorg.github.io/styles/main.css">
 
 
 
-    <meta name="description" content="温故而知新" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://coding-pages-bucket-3532956-8437033-14001-523971-1305174683.cos-website.ap-guangzhou.myqcloud.com">
-  <img class="avatar" src="https://coding-pages-bucket-3532956-8437033-14001-523971-1305174683.cos-website.ap-guangzhou.myqcloud.com/images/avatar.png?v=1615193108558" alt="">
-  </a>
-  <h1 class="site-title">
-    Gridea
-  </h1>
-  <p class="site-description">
-    温故而知新
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-</div>
-
-    
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="https://coding-pages-bucket-3532956-8437033-14001-523971-1305174683.cos-website.ap-guangzhou.myqcloud.com/hello.gridea/">
-        <h2 class="post-title">Hello Gridea</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2018-12-12
-        </span>
-        <span>
-          2 min read
-        </span>
+    <div class="blorg">
+      <div id="app" class="main">
+        <div class="site-header-container">
+  <div class="site-header-top">
+    <div class="site-header-top-content">
+      <div class="site-header-top-content-left">
         
-          <a href="https://coding-pages-bucket-3532956-8437033-14001-523971-1305174683.cos-website.ap-guangzhou.myqcloud.com/tag/rfUVN_Vzg/" class="post-tag">
-            # Gridea
-          </a>
+          
+            <a href="/" >
+              首页
+            </a>
+          
+        
+          
+            <a href="/archives" >
+              归档
+            </a>
+          
+        
+          
+            <a href="/tags" >
+              标签
+            </a>
+          
+        
+          
+            <a href="/about" >
+              关于
+            </a>
+          
         
       </div>
-      
-        <a href="https://coding-pages-bucket-3532956-8437033-14001-523971-1305174683.cos-website.ap-guangzhou.myqcloud.com/hello.gridea/" class="post-feature-image" style="background-image: url('https://coding-pages-bucket-3532956-8437033-14001-523971-1305174683.cos-website.ap-guangzhou.myqcloud.com/post-images/hello.gridea.png')">
-        </a>
-      
+      <div class="site-header-top-content-right">
+        
+          
+            <a href="http://careernav.cn/" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </div>
+  </div>
+  <div class="site-header">
+    <a href="https://blorg.github.io">
+      <img class="avatar" src="https://blorg.github.io/images/avatar.png?v=1615429869324" alt="" width="68%">
+    </a>
+    <h4 class="site-title">博客联盟更 [ <span id="year"></span> ] <span id="mouth"></span>月</h4>
+  </div>
+</div>
+<script>
+  document.getElementById("year").innerHTML = new Date().getFullYear();
+  document.getElementById("mouth").innerHTML = new Date().getMonth()+1;
+</script>
+        <div class="content-container">         
+          
+<section class="post-item">
+    <div class="content">
+      <a href="https://blorg.github.io/hello.gridea/">
+        <h2 class="post-title">你好博客</h2>
+      </a>
       <div class="post-abstract">
         <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
 ✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
 
       </div>
-    </article>
-  
-</div>
-
-    
-        <div class="pagination-container">
-  
-  
-</div>
-
-    
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://coding-pages-bucket-3532956-8437033-14001-523971-1305174683.cos-website.ap-guangzhou.myqcloud.com/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 20181212</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://blorg.github.io/comprehensive/">
+                综合
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://blorg.github.io/guangdong/">
+                广东
+                
+              </a>
+            
+          </span>
+        
       </div>
     </div>
+    
+      <a href="https://blorg.github.io/hello.gridea/">
+        <div class="feature-container" style="background-image: url('https://blorg.github.io/post-images/hello.gridea.png')">
+        </div>
+      </a>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://blorg.github.io/mikelin.cn/">
+        <h2 class="post-title">林浩楠博客</h2>
+      </a>
+      <div class="post-abstract">
+        <p>关注创业，修行人生！</p>
+
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 20150310</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://blorg.github.io/comprehensive/">
+                综合
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://blorg.github.io/guangdong/">
+                广东
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+      <a href="https://blorg.github.io/mikelin.cn/">
+        <div class="feature-container" style="background-image: url('https://blorg.github.io/post-images/mikelin.cn.jpg')">
+        </div>
+      </a>
+    
+  </section>
+
+
+<div class="pagination-container">
+  
+  
+</div>
+
+        </div>
+        <div class="site-footer">
+  <div class="slogan">©2021 博客联盟丨自由平等，分享奉献</div>
+  自豪地采用<a href="https://gridea.dev" target="_blank">Gridea</a>丨由<a href="https://mikelin.cn/" target="_blank">林浩楠</a>设计丨<a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow">粤ICP备17011520号</a>
+</div>
+
+      </div>      
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
   </body>
 </html>
