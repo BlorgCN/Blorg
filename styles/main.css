@@ -1,7 +1,7 @@
 :root {
   --c-base-black: #0C1E29;
   --c-base-blacklight: #4E616C;
-  --c-base-purple: #5978F3;
+  --c-base-purple: #c40000;
   --c-base-purplelight: #C2CCF2;
   --c-base-bluelight: hwb(199, 1%, 4%);
   --c-base-blue: hwb(209, 0%, 35%);
@@ -1153,93 +1153,40 @@ a.purple-link {
   flex-direction: column;
 }
 .post-item {
-  display: flex;
-  justify-content: space-between;
+  margin: 0 3px 20px!important;
   padding: 32px 0;
-  max-height: 200px;
-}
-.post-item .content {
-  flex: 1;
-}
-.post-item .content .post-title {
-  font-size: 22px;
-  color: #0C1E29;
-  display: inline-block;
-}
-.post-item .content .post-abstract {
-  font-size: 14px;
-  margin: 16px 0 8px;
-  flex: 1;
-  color: #4E616C;
-  line-height: 24px;
-  position: relative;
-  display: -webkit-box;
+  width: 25%;
+  float: left;
+  text-align: center;
   overflow: hidden;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
+  position: relative;
 }
-.post-item .content .post-abstract strong {
-  font-weight: bolder;
+.post-item .post-title {
+  font-size: 28px!important;
+  margin: 8px 0 3px!important;
 }
-.post-item .content .post-abstract a {
-  font-weight: 600;
-  background: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0);
-}
-.post-item .content .post-abstract code {
-  padding: 0 3px;
-  margin: 0 2px;
-  background: rgba(195, 195, 195, 0.41);
-  font-size: 0.9em;
-  border-radius: 2px;
+.post-item .post-blog-info {
+  border-top: 1px dashed #ecdfc1;
+  padding: 13px 0 3px;
+  margin: 8px 0 0;
 }
 .post-item .feature-container {
-  margin-left: 16px;
-  flex-shrink: 0;
-  width: 240px;
-  height: 135px;
-  position: relative;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-}
-.post-info {
-  color: var(--c-base-purple);
-  font-size: 12px;
-}
-.post-info span {
-  margin-right: 16px;
-}
-.post-info .icon {
-  font-size: 12px;
-  margin-right: 4px;
-}
-.post-info a {
-  color: var(--c-base-purple);
+  position: absolute;
+  opacity: 0.1;
+  top: 28%;
+  left: 38%;
+  width: 138px!important;
+  height: 138px!important;
 }
 @media (max-width: 600px) {
   .post-item {
-    flex-direction: column;
-    height: auto;
-    padding: 24px 0;
-    max-height: none;
+    width: 48%;
   }
-  .post-item .content {
-    order: 2;
-    display: block;
+  .post-item .post-title {
+    font-size: 23px!important;
   }
-  .post-item .content .post-title {
-    margin-top: 16px;
-    font-size: 18px;
-  }
-  .post-item .feature-container {
-    margin-left: 0;
-    order: 1;
-    height: 0;
-    width: 100%;
-    padding-top: 56%;
-    position: relative;
-    background-size: cover;
-    background-position: center;
+  .post-item .post-blog-info {
+    font-size: 16px!important;
   }
 }
 .pagination-container {
