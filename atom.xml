@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://BlorgCN.github.io</id>
     <title>博客联盟</title>
-    <updated>2021-03-12T13:14:42.913Z</updated>
+    <updated>2021-03-12T13:38:22.077Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://BlorgCN.github.io"/>
     <link rel="self" href="https://BlorgCN.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://BlorgCN.github.io/images/avatar.png</logo>
     <icon>https://BlorgCN.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 博客联盟</rights>
+    <entry>
+        <title type="html"><![CDATA[静之森]]></title>
+        <id>https://BlorgCN.github.io/innei.ren/</id>
+        <link href="https://BlorgCN.github.io/innei.ren/">
+        </link>
+        <updated>2019-11-27T13:21:57.000Z</updated>
+        <summary type="html"><![CDATA[<p>人间浮躁，尘世喧嚣。不曾想过去桃花源与世界隔绝的人间圣地，只想拥有一片属于自己的宁境。 不曾去过森林，却想在森林中聆听大自然的声音，享受这一片宁静。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>人间浮躁，尘世喧嚣。不曾想过去桃花源与世界隔绝的人间圣地，只想拥有一片属于自己的宁境。 不曾去过森林，却想在森林中聆听大自然的声音，享受这一片宁静。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[林海草原]]></title>
         <id>https://BlorgCN.github.io/lhcy.org/</id>
