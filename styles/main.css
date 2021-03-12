@@ -456,6 +456,18 @@ a.purple-link {
 .post-item .post-link {
   font-size: 20px!important;
 }
+.post-item:hover {
+  border: 1px dashed #c40000 !important;
+}
+.post-item:hover .post-title,
+.post-item:hover .post-link,
+.post-item:hover .post-blog-info,
+.post-item:hover .post-blog-info a {
+  color: #c40000 !important;
+}
+.post-item:hover .post-blog-info {
+  border-top: 1px dashed #c40000 !important;
+}
 @media (max-width: 600px) {
   .post-item {
     width: 48%;
@@ -569,7 +581,7 @@ a.purple-link {
   display: inline-block;
 }
 .post-content blockquote {
-  background: #f3f5f7;
+  background: #ebe5d5;
   padding: 16px;
   border-left: 2px solid var(--c-base-purple);
   margin-bottom: 16px;
