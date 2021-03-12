@@ -1,89 +1,119 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Page Not Found</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-    }
-    body {
-      display: flex;
-      flex-direction: column;
-      height: 100vh;
-      text-align: center;
-    }
-    .box {
-      flex: 1;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-    }
-    .number {
-      font-size: 80px;
-      color: #666;
-      font-weight: bold;
-    }
-    .text {
-      font-size: 14px;
-      margin: 24px;
-      color: #333;
-    }
-    .btn-container {
-      display: flex;
-      justify-content: center;
-    }
-    .btn {
-      padding: 8px 24px;
-      display: inline-block;
-      text-decoration: none;
-      background: #fff;
-      border: 2px solid #efefef;
-      color: #333;
-      margin: 24px;
-      border-radius: 20px;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-    }
-    .footer {
-      padding: 16px;
-      border-top: 1px solid #efefef;
-      color: #777;
-      font-weight: lighter;
-    }
-    .footer a {
-      text-decoration: none;
-      font-weight: bold;
-      color: #000;
-    }
-  </style>
-</head>
-<body>
-  <div class="box">
-    <div class="number">4 0 4</div>
-    <div class="text">
-      Page not found
-    </div>
-    <div class="btn-container">
-      <a class="btn" id="back">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" style="margin-right: 8px;">
-          <path fill="none" d="M0 0h24v24H0z"/>
-          <path d="M5.828 7l2.536 2.536L6.95 10.95 2 6l4.95-4.95 1.414 1.414L5.828 5H13a8 8 0 1 1 0 16H4v-2h9a6 6 0 1 0 0-12H5.828z"/>
-        </svg>
-        Back
-      </a>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>博客联盟</title>
+<meta name="keyword" content="中国博客联盟,值得读的博客,值得收藏的博客,名人博客,博客收录,博客导航,博客目录,博客推广,博客交流,博客展示,个人博客">
+<meta name="description" content="博客联盟·新版，属于原中国博客联盟（zgboke.org）的精选版，主要收录国内具有阅读价值的优秀原创个人博客，采用非盈利、全手工审查收录的运维模式。在这里提倡分享奉献，完全自由平等，只要你的博客满足收录标准，就一定会出现在平台上！">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://BlorgCN.github.io/favicon.ico?v=1615530869219">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://BlorgCN.github.io/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div class="blorg">
+      <div id="app" class="main">
+        <div class="site-header-container">
+  <div class="site-header-top">
+    <div class="site-header-top-content">
+      <div class="site-header-top-content-left">
+        
+          
+            <a href="/about" >
+              关于
+            </a>
+          
+        
+          
+            <a href="/standard" >
+              标准
+            </a>
+          
+        
+          
+            <a href="/sitemap" >
+              地图
+            </a>
+          
+        
+      </div>
+      <div class="site-header-top-content-right">
+        
+          
+            <a href="https://github.com/BlorgCN/BlorgCN.github.io" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
     </div>
   </div>
-  <footer class="footer">
-    Powered by <a href="https://gridea.dev" target="_blank">Gridea</a>
-  </footer>
-  <script>
-    var back = document.getElementById('back')
-    back.onclick = function() { console.log('run...'); history.back() }
-  </script>
-</body>
+  <div class="site-header">
+    <a href="https://BlorgCN.github.io">
+      <img class="avatar" src="https://BlorgCN.github.io/images/avatar.png?v=1615530869219" alt="" width="68%">
+    </a>
+    <h4 class="site-title">博客联盟更 [ <span id="year"></span> ] <span id="mouth"></span>月</h4>
+  </div>
+</div>
+          <div class="content-container">
+            <div class="number">
+              4 0 4
+            </div>
+            <div class="text">
+              Page not found
+            </div>
+          </div>
+          <div class="site-footer">
+	<div class="upyun"><a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank">本站由<img src="data:image/png;base64,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">提供CDN加速/云存储服务</a></div>
+	<div class="slogan">©中国博客联盟2014-<span id="yearfooter"></span> 🇨🇳 自由平等，分享奉献</div>
+	自豪地采用<a href="https://gridea.dev" target="_blank">Gridea</a>丨由<a href="https://mikelin.cn/" target="_blank">林浩楠</a>设计丨<a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow">粤ICP备17011520号</a>
+</div>
+
+        </div>
+        <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+<script>
+  document.getElementById("year").innerHTML = new Date().getFullYear();
+  document.getElementById("mouth").innerHTML = new Date().getMonth()+1;
+  document.getElementById("yearfooter").innerHTML = new Date().getFullYear();
+</script>
+
+
+
+
+    </div>
+  </body>
 </html>

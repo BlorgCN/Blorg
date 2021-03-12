@@ -356,6 +356,13 @@ summary {
 .site-footer .slogan {
   margin-bottom: 10px;
 }
+.upyun {
+  margin: 0 0 6px;
+}
+.upyun img {
+  vertical-align: middle;
+  width: 38px;
+}
 .site-header-container {
   position: fixed;
   right: 0;
@@ -695,4 +702,16 @@ a.purple-link {
   border: 2px solid var(--c-base-purple);
   margin: 0 16px 16px 0;
   border-radius: 16px;
+}
+.number {
+  font-size: 80px;
+  color: #4f4a3d;
+  font-weight: bold;
+  text-align: center;
+}
+.text {
+  font-size: 14px;
+  margin: 24px;
+  color: #4f4a3d;
+  text-align: center;
 }
