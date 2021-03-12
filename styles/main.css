@@ -553,7 +553,6 @@ a.purple-link {
 }
 .post-content img {
   display: block;
-  box-shadow: 0 0 30px #eee;
   max-width: 100%;
   border-radius: 2px;
   margin: 16px auto;
