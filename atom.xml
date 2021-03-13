@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://BlorgCN.github.io</id>
     <title>博客联盟</title>
-    <updated>2021-03-13T06:54:51.553Z</updated>
+    <updated>2021-03-13T13:18:16.171Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://BlorgCN.github.io"/>
     <link rel="self" href="https://BlorgCN.github.io/atom.xml"/>
@@ -66,6 +66,17 @@
 ]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[水八口记]]></title>
+        <id>https://BlorgCN.github.io/shuiba.co/</id>
+        <link href="https://BlorgCN.github.io/shuiba.co/">
+        </link>
+        <updated>2016-09-10T06:04:48.000Z</updated>
+        <summary type="html"><![CDATA[<p>这里是水八口（陈沿）的个人博客，旨在记录当下赠与未来。博客中时常出现的豆哥/石页先生乃本人的灵魂伴侣，小坡/坡坡/坡崽（此处省略昵称一万字）乃我们的爱情结晶。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>这里是水八口（陈沿）的个人博客，旨在记录当下赠与未来。博客中时常出现的豆哥/石页先生乃本人的灵魂伴侣，小坡/坡坡/坡崽（此处省略昵称一万字）乃我们的爱情结晶。</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[风雨行者]]></title>
         <id>https://BlorgCN.github.io/stuit.cn/</id>
         <link href="https://BlorgCN.github.io/stuit.cn/">
@@ -107,17 +118,6 @@
         <summary type="html"><![CDATA[<p>一个注重原创的博客文学站点，我们热衷于将生活的艺术与飘渺的梦相融合，创造出一个属于自己的梦境。所以，这里在虚无中有真情的流露。</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>一个注重原创的博客文学站点，我们热衷于将生活的艺术与飘渺的梦相融合，创造出一个属于自己的梦境。所以，这里在虚无中有真情的流露。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[老D博客]]></title>
-        <id>https://BlorgCN.github.io/laod.cn/</id>
-        <link href="https://BlorgCN.github.io/laod.cn/">
-        </link>
-        <updated>2013-09-22T12:56:46.000Z</updated>
-        <summary type="html"><![CDATA[<p>专注于IT前沿、谷歌学术、黑科技、网络安全、软件应用、Google服务、 连接互联网等内容的技术博客。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>专注于IT前沿、谷歌学术、黑科技、网络安全、软件应用、Google服务、 连接互联网等内容的技术博客。</p>
 ]]></content>
     </entry>
 </feed>
