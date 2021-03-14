@@ -696,14 +696,15 @@ a.purple-link {
 }
 .tags-container {
   padding: 32px 0;
+  font-size: 33px;
 }
 .tags-container .tag {
-  color: var(--c-base-purple);
-  padding: 4px 8px;
+  color: var(--c-base-blacklight);
+  padding: 14px 16px;
   display: inline-block;
-  border: 2px solid var(--c-base-purple);
-  margin: 0 16px 16px 0;
-  border-radius: 16px;
+}
+.tags-container b {
+  color: #c40000;
 }
 .number {
   font-size: 80px;

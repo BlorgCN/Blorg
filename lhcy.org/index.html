@@ -13,10 +13,16 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://BlorgCN.github.io/favicon.ico?v=1615702175824">
+<link rel="shortcut icon" href="https://BlorgCN.github.io/favicon.ico?v=1615706896898">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://BlorgCN.github.io/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -73,7 +79,7 @@
   </div>
   <div class="site-header">
     <a href="https://BlorgCN.github.io">
-      <img class="avatar" src="https://BlorgCN.github.io/images/avatar.png?v=1615702175824" alt="" width="68%">
+      <img class="avatar" src="https://BlorgCN.github.io/images/avatar.png?v=1615706896898" alt="" width="68%">
     </a>
     <h4 class="site-title">博客联盟更 [ <span id="year"></span> ] <span id="mouth"></span>月</h4>
   </div>
@@ -126,8 +132,6 @@
           </div>
         </div>
 
-        
-
         <div class="site-footer">
 	<div class="upyun"><a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank">本站由<img src="data:image/png;base64,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">提供CDN加速/云存储服务</a></div>
 	<div class="slogan">©中国博客联盟2014-<span id="yearfooter"></span> 🇨🇳 自由平等，分享奉献</div>
@@ -157,6 +161,29 @@ var app = new Vue({
   document.getElementById("mouth").innerHTML = new Date().getMonth()+1;
   document.getElementById("yearfooter").innerHTML = new Date().getFullYear();
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '7cc55608b85c3621a5dc',
+        clientSecret: 'ed897b5248747ac0255dfbf133bba9590ec989c9',
+        repo: 'Blorg',
+        owner: 'BlorgCN',
+        admin: ['BlorgCN'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
