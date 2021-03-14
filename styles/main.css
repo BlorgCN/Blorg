@@ -706,6 +706,44 @@ a.purple-link {
 .tags-container b {
   color: #c40000;
 }
+.markdown-body {
+  font-family: jixiangsong!important;
+}
+.gt-container .gt-avatar img {
+  border-radius: 50%!important;
+}
+.gt-container .gt-comment-admin .gt-comment-content {
+  background-color: #fff4f4 !important;
+}
+.gt-container .gt-comment-content {
+  background-color: #f9f4e9 !important;
+}
+.gt-container .gt-header-textarea {
+  background-color: #fffef9 !important;
+}
+.gt-container .gt-header-textarea:hover {
+  background-color: #f9f4e9 !important;
+}
+.gt-container .gt-btn {
+  border: 1px solid #c40000 !important;
+  background-color: #c40000 !important;
+}
+.gt-container .gt-btn-preview {
+  background-color: #fffef9 !important;
+  color: #c40000 !important;
+}
+.gt-container a:hover {
+  color: #c40000 !important;
+}
+.gt-container .gt-svg svg {
+  fill: #c40000 !important;
+}
+.gt-container .gt-link {
+  border-bottom: 1px dotted #aba18b !important;
+}
+.gt-container .gt-user .is--poping .gt-ico svg {
+  fill: #aba18b !important;
+}
 .number {
   font-size: 80px;
   color: #4f4a3d;
