@@ -750,7 +750,8 @@ a.purple-link {
 .gt-container .gt-user .is--poping .gt-ico svg {
   fill: #aba18b !important;
 }
-a.gt-header-controls-tip {
+a.gt-header-controls-tip,
+.gt-container .gt-counts {
   display: none;
 }
 .number {
