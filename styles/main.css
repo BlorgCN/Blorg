@@ -714,6 +714,21 @@ a.purple-link {
   color: #69645a;
   font-size: 16px;
 }
+.post-blog-shici {
+  text-align: left;
+  width: 205px;
+  margin: 0 auto;
+  letter-spacing: 0;
+}
+.post-blog-shici h2 {
+  text-align: center;
+  color: #696251;
+  margin-bottom: 12px;
+}
+.post-blog-shici p {
+  color: #4e493c;
+  margin: 0;
+}
 .markdown-body {
   font-family: jixiangsong!important;
 }
