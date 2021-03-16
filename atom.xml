@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://BlorgCN.github.io</id>
     <title>博客联盟</title>
-    <updated>2021-03-16T02:31:43.031Z</updated>
+    <updated>2021-03-16T03:49:59.848Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://BlorgCN.github.io"/>
     <link rel="self" href="https://BlorgCN.github.io/atom.xml"/>
@@ -41,6 +41,17 @@
         <summary type="html"><![CDATA[<p>我们阻止不了这个城市的焦虑，似乎每个人都被不同的习惯控制着，我们怕孤独，怕自己做的不完美，最后习惯了自己也变成一种习惯。</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>我们阻止不了这个城市的焦虑，似乎每个人都被不同的习惯控制着，我们怕孤独，怕自己做的不完美，最后习惯了自己也变成一种习惯。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[水清无鱼]]></title>
+        <id>https://BlorgCN.github.io/bosir.cn/</id>
+        <link href="https://BlorgCN.github.io/bosir.cn/">
+        </link>
+        <updated>2018-06-08T00:08:08.000Z</updated>
+        <summary type="html"><![CDATA[<p>水清无鱼博客——认认真真做人，老老实实做事。这是一个由Bosir（黄波）建立的个人生活博客，主要分享禅修知识和优质资源的个人独立生活博客。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>水清无鱼博客——认认真真做人，老老实实做事。这是一个由Bosir（黄波）建立的个人生活博客，主要分享禅修知识和优质资源的个人独立生活博客。</p>
 ]]></content>
     </entry>
     <entry>
@@ -107,17 +118,6 @@
         <summary type="html"><![CDATA[<p>灯塔国西奈山医学院博士后一枚，路盲，脸盲并伴有间歇性健忘，各方面都在建设中……</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>灯塔国西奈山医学院博士后一枚，路盲，脸盲并伴有间歇性健忘，各方面都在建设中……</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[谢益辉]]></title>
-        <id>https://BlorgCN.github.io/yihui.org/</id>
-        <link href="https://BlorgCN.github.io/yihui.org/">
-        </link>
-        <updated>2014-12-05T00:08:08.000Z</updated>
-        <summary type="html"><![CDATA[<p>中国人民大学统计硕士，爱荷华州立大学统计学博士，R 包 knitr 的主要作者。现为 RStudio 软件工程师，曾负责 Shiny 包相关开发工作，后转入 R Markdown 相关扩展包的开发，包括 bookdown 和 blogdown。对统计计算、可视化、以及各类网页相关技术感兴趣，有志于对技术写作工具做减法工作，坚信人类浪费了太多时间在期刊论文、学位论文、书籍的排版上。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>中国人民大学统计硕士，爱荷华州立大学统计学博士，R 包 knitr 的主要作者。现为 RStudio 软件工程师，曾负责 Shiny 包相关开发工作，后转入 R Markdown 相关扩展包的开发，包括 bookdown 和 blogdown。对统计计算、可视化、以及各类网页相关技术感兴趣，有志于对技术写作工具做减法工作，坚信人类浪费了太多时间在期刊论文、学位论文、书籍的排版上。</p>
 ]]></content>
     </entry>
 </feed>
