@@ -113,6 +113,7 @@ abbr[title] {
 b,
 strong {
   font-weight: bolder;
+  color: #383122;
 }
 /**
  * 1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
@@ -454,7 +455,7 @@ a.purple-link {
 }
 .post-item .feature-container {
   position: absolute;
-  opacity: 0.1;
+  opacity: 0.05;
   top: 28%;
   left: 38%;
   width: 138px!important;
@@ -639,6 +640,7 @@ a.purple-link {
 }
 .post-content strong {
   font-weight: bolder;
+  color: #383122;
 }
 @media (max-width: 600px) {
   .content-container {
