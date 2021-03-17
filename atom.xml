@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://BlorgCN.github.io</id>
+    <id>https://blorg.cn</id>
     <title>博客联盟</title>
-    <updated>2021-03-17T08:03:55.150Z</updated>
+    <updated>2021-03-17T12:27:55.873Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://BlorgCN.github.io"/>
-    <link rel="self" href="https://BlorgCN.github.io/atom.xml"/>
+    <link rel="alternate" href="https://blorg.cn"/>
+    <link rel="self" href="https://blorg.cn/atom.xml"/>
     <subtitle>博客联盟·新版，属于原中国博客联盟（zgboke.org）的精选版，主要收录国内具有阅读价值的优秀原创个人博客，采用非盈利、全手工审查收录的运维模式。在这里提倡分享奉献，完全自由平等，只要你的博客满足收录标准，就一定会出现在平台上！</subtitle>
-    <logo>https://BlorgCN.github.io/images/avatar.png</logo>
-    <icon>https://BlorgCN.github.io/favicon.ico</icon>
+    <logo>https://blorg.cn/images/avatar.png</logo>
+    <icon>https://blorg.cn/favicon.ico</icon>
     <rights>All rights reserved 2021, 博客联盟</rights>
     <entry>
         <title type="html"><![CDATA[静之森]]></title>
-        <id>https://BlorgCN.github.io/innei.ren/</id>
-        <link href="https://BlorgCN.github.io/innei.ren/">
+        <id>https://blorg.cn/innei.ren/</id>
+        <link href="https://blorg.cn/innei.ren/">
         </link>
         <updated>2019-11-27T13:21:57.000Z</updated>
         <summary type="html"><![CDATA[<p>人间浮躁，尘世喧嚣。不曾想过去桃花源与世界隔绝的人间圣地，只想拥有一片属于自己的宁境。 不曾去过森林，却想在森林中聆听大自然的声音，享受这一片宁静。</p>
@@ -23,8 +23,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[林海草原]]></title>
-        <id>https://BlorgCN.github.io/lhcy.org/</id>
-        <link href="https://BlorgCN.github.io/lhcy.org/">
+        <id>https://blorg.cn/lhcy.org/</id>
+        <link href="https://blorg.cn/lhcy.org/">
         </link>
         <updated>2019-08-04T09:50:34.000Z</updated>
         <summary type="html"><![CDATA[<p>愿我经历的苦难你不要经历，愿我已有的幸福你触手可及</p>
@@ -34,8 +34,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[孤　斗]]></title>
-        <id>https://BlorgCN.github.io/d-d.design/</id>
-        <link href="https://BlorgCN.github.io/d-d.design/">
+        <id>https://blorg.cn/d-d.design/</id>
+        <link href="https://blorg.cn/d-d.design/">
         </link>
         <updated>2018-08-15T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>我们阻止不了这个城市的焦虑，似乎每个人都被不同的习惯控制着，我们怕孤独，怕自己做的不完美，最后习惯了自己也变成一种习惯。</p>
@@ -45,8 +45,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[水清无鱼]]></title>
-        <id>https://BlorgCN.github.io/bosir.cn/</id>
-        <link href="https://BlorgCN.github.io/bosir.cn/">
+        <id>https://blorg.cn/bosir.cn/</id>
+        <link href="https://blorg.cn/bosir.cn/">
         </link>
         <updated>2018-06-08T00:08:08.000Z</updated>
         <summary type="html"><![CDATA[<p>水清无鱼博客——认认真真做人，老老实实做事。这是一个由Bosir（黄波）建立的个人生活博客，主要分享禅修知识和优质资源的个人独立生活博客。</p>
@@ -56,8 +56,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[张戈博客]]></title>
-        <id>https://BlorgCN.github.io/zhang.ge/</id>
-        <link href="https://BlorgCN.github.io/zhang.ge/">
+        <id>https://blorg.cn/zhang.ge/</id>
+        <link href="https://blorg.cn/zhang.ge/">
         </link>
         <updated>2018-05-24T10:11:40.000Z</updated>
         <summary type="html"><![CDATA[<p>张戈博客是关注互联网以及分享IT运维工作经验的个人博客，由系统运维、脚本编程以及资源分享等分类组成，涵盖了操作系统教程、运维经验、脚本语言以及网络资源等。</p>
@@ -67,8 +67,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[无　垠]]></title>
-        <id>https://BlorgCN.github.io/flyhigher.top/</id>
-        <link href="https://BlorgCN.github.io/flyhigher.top/">
+        <id>https://blorg.cn/flyhigher.top/</id>
+        <link href="https://blorg.cn/flyhigher.top/">
         </link>
         <updated>2017-02-08T13:44:23.000Z</updated>
         <summary type="html"><![CDATA[<p>无垠是一个个人博客,关注科技、代码和网络。飞翔的天空无限大。</p>
@@ -78,8 +78,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[水八口记]]></title>
-        <id>https://BlorgCN.github.io/shuiba.co/</id>
-        <link href="https://BlorgCN.github.io/shuiba.co/">
+        <id>https://blorg.cn/shuiba.co/</id>
+        <link href="https://blorg.cn/shuiba.co/">
         </link>
         <updated>2016-09-10T06:04:48.000Z</updated>
         <summary type="html"><![CDATA[<p>这里是水八口（陈沿）的个人博客，旨在记录当下赠与未来。博客中时常出现的豆哥/石页先生乃本人的灵魂伴侣，小坡/坡坡/坡崽（此处省略昵称一万字）乃我们的爱情结晶。</p>
@@ -89,8 +89,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[风雨行者]]></title>
-        <id>https://BlorgCN.github.io/stuit.cn/</id>
-        <link href="https://BlorgCN.github.io/stuit.cn/">
+        <id>https://blorg.cn/stuit.cn/</id>
+        <link href="https://blorg.cn/stuit.cn/">
         </link>
         <updated>2015-11-06T14:17:51.000Z</updated>
         <summary type="html"><![CDATA[<p>非著名历史学爱好者的个人博客。</p>
@@ -100,8 +100,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[林浩楠博客]]></title>
-        <id>https://BlorgCN.github.io/mikelin.cn/</id>
-        <link href="https://BlorgCN.github.io/mikelin.cn/">
+        <id>https://blorg.cn/mikelin.cn/</id>
+        <link href="https://blorg.cn/mikelin.cn/">
         </link>
         <updated>2015-09-14T06:22:16.000Z</updated>
         <summary type="html"><![CDATA[<p>林浩楠博客是一个关注创业和人生修行与哲学的博客，主要是以林浩楠先生创业经历的独特视角所创作的一些关于创业、修行与哲学的原创作品，以及部分社会评论。</p>
@@ -111,8 +111,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[于淼博客]]></title>
-        <id>https://BlorgCN.github.io/yufree.cn/</id>
-        <link href="https://BlorgCN.github.io/yufree.cn/">
+        <id>https://blorg.cn/yufree.cn/</id>
+        <link href="https://blorg.cn/yufree.cn/">
         </link>
         <updated>2015-03-31T00:08:08.000Z</updated>
         <summary type="html"><![CDATA[<p>灯塔国西奈山医学院博士后一枚，路盲，脸盲并伴有间歇性健忘，各方面都在建设中……</p>

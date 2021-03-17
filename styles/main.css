@@ -345,7 +345,7 @@ summary {
 }
 @font-face {
   font-family: 'jixiangsong';
-  src: url('../media/fonts/jixiangsong.ttf');
+  src: url('https://blorg.img.run/jixiangsong.ttf');
   font-weight: normal;
   font-style: normal;
 }
